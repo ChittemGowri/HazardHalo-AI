@@ -1,0 +1,10 @@
+zone:
+  name: restricted-zone-1
+  polygon: [[0.2,0.2],[0.8,0.2],[0.8,0.8],[0.2,0.8]]
+  confidence_threshold: 0.6
+  entry_confirmation_seconds: 1.0
+  clear_confirmation_seconds: 1.0
+  alert_cooldown_seconds: 30.0
+pipegen_output_schema: unverified_fixture # replace only after a verified PipeGen export
+serial_port: COM3
+serial_baud: 115200
