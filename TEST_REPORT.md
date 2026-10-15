@@ -8,3 +8,5 @@
 - Hardware tests: **NOT RUN**; no verified PipeGen, FirmGen, CUDA, ESP-IDF, board, serial port, or camera access.
 
 No simulated result is represented as a hardware result.
+
+- `python -m pytest -q`: **PASSED — 5 tests** (zone engine, PipeGen fixture adapter, event/outbox, and serial protocol).
